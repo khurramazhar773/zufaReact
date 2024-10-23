@@ -5,29 +5,12 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <footer className="bg-gray-800 text-gray-400 py-8 px-2">
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 md:px-10">
                 {/* About Us Section */}
-                <div>
-                    <h2 className="text-white text-lg font-bold mb-4">Logo</h2>
+                <div className="flex justify-center items-center">
+                    <img src="/zufalogo.png" alt="" />
 
-                    <div className="flex space-x-4 mt-4">
-                        {/* Social Icons */}
-                        <a href="#" className="text-gray-400 hover:text-white">
-                            <FaFacebook size={24} />
-                        </a>
-                        <a href="#" className="text-gray-400 hover:text-white">
-                            <FaTwitter size={24} />
-                        </a>
-                        <a href="#" className="text-gray-400 hover:text-white">
-                            <FaLinkedin size={24} />
-                        </a>
-                        <a href="#" className="text-gray-400 hover:text-white">
-                            <FaYoutube size={24} />
-                        </a>
-                        <a href="#" className="text-gray-400 hover:text-white">
-                            <FaPinterest size={24} />
-                        </a>
-                    </div>
+
                 </div>
 
                 {/* Information Section */}
@@ -78,7 +61,7 @@ const Footer = () => {
                 <div>
                     <h2 className="text-white text-lg font-bold mb-4">NEWSLETTER</h2>
                     <p className="text-sm mb-4">Enter E-Mail Address</p>
-                    <div className="flex">
+                    <div className="flex px-5 md:px-0">
                         <input
                             type="email"
                             placeholder="Enter E-Mail Address"
@@ -94,7 +77,7 @@ const Footer = () => {
             <div className="border-t border-gray-700 mt-8 pt-6 text-center text-sm text-gray-500">
                 <p>
                     © 2024 Zufa. Made with <span className="text-red-500">❤</span> by
-                    <Link to={'#'}>BaigDevLab</Link>
+                    <Link to={'https://baigdevlab.netlify.app/'}>BaigDevLab</Link>
                 </p>
 
             </div>

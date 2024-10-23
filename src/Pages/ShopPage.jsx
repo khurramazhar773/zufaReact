@@ -12,8 +12,8 @@ const ShopPage = () => {
 
     return (
         <Layout>
-            <PageBanner name={'Shop'} path={'/shop'} />
-            <LineBar product={'20'} />
+            <PageBanner name={'Shop'} path={'/ Shop'} />
+            <LineBar product={product.length} />
 
             <div className="flex justify-center items-center flex-wrap gap-5">
                 {product.map((product) => (

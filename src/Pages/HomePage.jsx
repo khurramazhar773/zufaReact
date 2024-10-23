@@ -22,8 +22,11 @@ const HomePage = () => {
                 <p className='text-center text-lg p-2 '>Our Best Products</p>
                 <FilterableGallery />
             </div>
-
-            <BlogCont />
+            <div>
+                <h1 className='text-4xl font-bold text-center '>Latest News </h1>
+                <p className='text-xl text-center pt-3 md:w-1/2 md:m-auto '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum hic incidunt nam ducimus dolore quod?</p>
+                <BlogCont />
+            </div>
 
             {/* <ProductCard /> */}
         </Layout>

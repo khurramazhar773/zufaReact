@@ -9,31 +9,31 @@ const categories = [
         id: 1,
         Image: bedsheet,
         name: "Bedsheet",
-        link: "/category/electronics"
+        link: "/category/bedsheet"
     },
     {
         id: 2,
         Image: curtain,
         name: "Curtain",
-        link: "/category/furniture"
+        link: "/category/Curtain"
     },
     {
         id: 3,
         Image: pillow,
         name: "Pillow",
-        link: "/category/clothing"
+        link: "/category/Pillow-Cover"
     },
     {
         id: 4,
         Image: sofacover,
         name: "Sofa Cover",
-        link: "/category/toys"
+        link: "/category/Sofa-Cover"
     },
     {
         id: 5,
         Image: sofacover1,
         name: "Sofa Cover",
-        link: "/category/books"
+        link: "/category/Sofa-Cover"
     }
 ];
 

@@ -1,9 +1,10 @@
 import React from 'react';
 import { FaHeart, FaExpand, FaLink, FaShoppingCart } from 'react-icons/fa'; // Icons from react-icons
+import { Link } from 'react-router-dom';
 
 const ProductCard = ({ prop }) => {
     return (
-        <div className="w-72">
+        <Link to={`/product/${prop.id}`} className="w-72">
             {/* Image and Icons */}
             <div className="relative group ">
                 {/* Product Image */}
@@ -51,7 +52,7 @@ const ProductCard = ({ prop }) => {
                     <span className="text-gray-800 font-bold">$1540.0</span>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 };
 

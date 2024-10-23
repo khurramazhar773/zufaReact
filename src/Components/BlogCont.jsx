@@ -4,7 +4,7 @@ import blogData from "../Constants/blogData";
 export default function BlogCont() {
     const data = blogData.slice(2, 5)
     return (
-        <div className="flex justify-center items-center min-h-screen">
+        <div className="flex justify-center items-center min-h-screen my-8 md:-my-24">
             {/* Center the container in both directions */}
             <div className="container mx-auto px-10">
                 {/* <p className="text-2xl font-bold mb-6 text-center">Popular Blogs</p> */}
