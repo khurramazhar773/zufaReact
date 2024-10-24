@@ -13,7 +13,7 @@ const blogData = [
         title: "Choosing the Perfect Bedsheet: A Comprehensive Guide",
         description: "Discover how to select the ideal bedsheet for your bedroom.",
         content: `*Introduction*
-  
+
   Choosing the right bedsheet can transform your sleeping experience. From material to thread count, here's everything you need to know to make an informed decision.
   
   *1. Understand the Materials*
