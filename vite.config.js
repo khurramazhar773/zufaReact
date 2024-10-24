@@ -1,8 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: "/zufaReact/",
   plugins: [react()],
-})
+  build: {
+    rollupOptions: {
+      input: './src/main.js', // or ./src/index.js based on your structure
+    },
+  },
+});
